@@ -3,65 +3,39 @@ import ProjectCard from "../components/ProjectCard";
 
 function Project() {
   return (
-    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden ">
-      <img
-        src="./star.jpg"
-        alt=""
-        className="h-full w-full object-cover opacity-20 absolute bottom-0"
-      />
+    <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden mt-16">
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         <ProjectCard
-          name={"Blog Website"}
+          name={"Aware Chicago"}
           image={"/project/img1.png"}
           about={
-            "You can write and read blogs in it and it is built on NextJS, its backend uses mongodb. And it is also mobile responsive"
+            "A public safety map that only shows crime that you might actually experience while walking in the city. (React, OpenLayers)"
           }
-          demo={"https://blog-website-riteshk-007.vercel.app/"}
-          code={"https://github.com/riteshk-007/blog-website"}
+          demo={"https://github.com/superchordate/aware-chicago/"}
         />
         <ProjectCard
-          name={"Imagzen 🖼️"}
+          name={"ASEC Census Helper"}
           image={"/project/img2.png"}
           about={
-            "Meet IMAGZEN – the responsive image download app that lets you search and download images with ease."
+            "Packages up over 700 fields from the Annual Social and Economic Supplement to the Current Population Survey (CPS-ASEC) data for easier use and provides an interface to quickly get the data you need. (Data Engineering, R Shiny)"
           }
-          demo={"https://imagzen.vercel.app/"}
-          code={"https://github.com/riteshk-007/imagzen"}
+          demo={"https://github.com/superchordate/ASEC-census-helper/"}
         />
         <ProjectCard
-          name={"NextJs E commerce 🏪"}
+          name={"hcslim"}
           image={"/project/img3.png"}
           about={
-            "You can order clothes and create your own products and it is built on NextJS, its backend uses MongoDB. And it is also mobile responsive. And Test Account is = test@gmail.com and password = test4321"
+            "Minimal HTML-based functions for creating plots in accordance with the Highcharts API. (R Code for Data Visualization, R Package)"
           }
-          demo={"https://nextjs-e-commerce-rk.vercel.app/"}
-          code={"https://github.com/riteshk-007/nextjs-store"}
+          demo={"https://github.com/superchordate/hcslim/"}
         />
         <ProjectCard
-          name={"ChatGPT Clone 💬"}
+          name={"easyr"}
           image={"/project/img4.png"}
           about={
-            "Similar to chatGPT, this platform is designed to assist users in addressing their queries. It's an excellent resource to tackle any code-related issue or inquiry you may have."
+            "Helpful functions that make coding in R easier including shorthand, type conversion, data wrangling, and workflow. (R Package)"
           }
-          code={"https://github.com/riteshk-007/Chat-GPT-Clone"}
-        />
-        <ProjectCard
-          name={"Fitness Club 👊"}
-          image={"/project/img5.png"}
-          about={
-            "We're excited to introduce Gym-Exercise, the fitness platform that's open-source and designed to help you take charge of your health and fitness journey."
-          }
-          demo={"https://gym-exercise-six.vercel.app/"}
-          code={"https://github.com/riteshk-007/gym-exercise"}
-        />
-        <ProjectCard
-          name={"Youtube Clone 📹"}
-          image={"/project/img6.png"}
-          about={
-            "A YouTube clone that allows users to search and enjoy their favorite videos and songs is now available. This platform is also mobile-responsive, making it convenient for users on-the-go."
-          }
-          demo={"https://youtube-clone-by-ritesh.netlify.app/"}
-          code={"https://github.com/riteshk-007/Youtube-Clone-by-Tailwind-Css"}
+          demo={"https://github.com/superchordate/hcslim/"}
         />
       </div>
     </div>

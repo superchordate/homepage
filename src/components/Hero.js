@@ -1,34 +1,43 @@
-import React from "react";
-import Type from "./Type";
+// https://tailwindui.com/components/marketing/sections/heroes
 
-function Hero() {
+import { useState } from 'react'
+
+export default function Hero() {
+
   return (
-    <div className="bg-[url(../public/home-bg.jpg)] h-2/3 flex flex-wrap items-center justify-center flex-col lg:flex-row">
-      <div className="w-full lg:w-1/2 h-1/2 lg:h-full flex items-center justify-center flex-col mt-10">
-        <div className=" flex gap-5 items-center lg:items-start justify-center flex-col">
-          <h3 className="flex text-white text-4xl gap-2">
-            Hi There!
-            <span>
-              <img
-                src="https://media.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif"
-                alt="hand"
-                className="h-10"
-              />
-            </span>
-          </h3>
-          <span className="flex text-white text-4xl lg:text-5xl gap-2 font-bold">
-            I'M <p className="text-[#ad50eb]"> RITESH</p>
-          </span>
-          <span className="flex text-[#ad50eb] text-2xl lg:text-3xl gap-2 font-semibold bg-gray-800 h-20 lg:h-32 w-72 lg:w-80 items-center justify-center px-5 rounded-md shadow-xl capitalize text-center">
-            <Type />
-          </span>
+    <div className="bg-white">
+      <div className="relative isolate px-6 pt-14 lg:px-8 bg-[url('hero.jpg')]">
+        <div className="mx-auto max-w-2xl py-32 sm:py-32 lg:py-56 mb-4">
+          {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              Announcing our next round of funding.{' '}
+              <a href="#" className="font-semibold text-indigo-600">
+                <span className="absolute inset-0" aria-hidden="true" />
+                Read more <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </div> */}
+          <div className="text-center">
+            <h1 className="text-4xl tracking-tight text-gray-100 sm:text-6xl poppins-regular">
+              Make your analytical dreams a reality <span className="poppins-extrabold text-white">now.</span> 
+            </h1>
+            <p className="mt-6 text-3xl leading-8 text-white poppins-semibold">
+              Your customers will thank you.
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              {/* <a
+                href="#"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Get started
+              </a>
+              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                Learn more <span aria-hidden="true">→</span>
+              </a> */}
+            </div>
+          </div>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 h-full flex items-center justify-center">
-        <img src="home-main.svg" alt="" className="h-[70vh]" />
-      </div>
     </div>
-  );
+  )
 }
-
-export default Hero;
