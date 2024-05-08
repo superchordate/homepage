@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Media', href: '/media' },
   { name: 'Resume', href: '/resume' },
-  { name: 'FAQ', href: '/faq' },
+  // { name: 'FAQ', href: '/faq' },
 ]
 
 function Header() {

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Project from "./pages/Project";
 import Media from "./pages/Media";
 import Resume from "./pages/Resume";
+// import FAQ from "./pages/FAQ";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/portfolio" element={<Project />} />
         <Route path="/media" element={<Media />} />
         <Route path="/resume" element={<Resume />} />
+        {/* <Route path="/faq" element={<FAQ />} /> */}
       </Routes>
       <Footer />
     </div>

@@ -16,9 +16,17 @@ function Home() {
         p1="Off-the-shelf solutions work well for basic needs, but often fall short of addressing the intricate and individualized challenges that businesses face. You end up with too little of what you need and too much of what you don't. Here's a secret that industry giants like Microsoft and Salesforce might not want you to know: custom-built tools tailored precisely to your requirements can be developed at a comparable cost to off-the-shelf software. By investing in solutions crafted specifically for your unique business ecosystem, you unlock the potential for streamlined processes, enhanced efficiency, and a competitive edge in your market."
       />
       <Section
-        header="Put Experience To Work For Your Business"
-        p1="Elevate your business now by transforming those long-cherished ideas from concepts into tangible assets. Working with Bryce, you're not just tapping into a wealth of experience but embarking on a journey towards innovation and growth. With a track record of developing custom analytical solutions at scale, Bryce's tenure as a Principal Consultant at Oliver Wyman underscores his ability to deliver tailored solutions that meet the demands of even the most discerning clients. Spearheading the creation of a custom analytics platform supporting over 100 R Shiny applications, Bryce has demonstrated a mastery of both web and data technologies, blending skills in HTML, JavaScript, CSS, React, R Shiny, Highcharts, and Google Cloud Platform, as well as in R, Python, SQL, and Spark, with a proven ability to quickly learn and implement new technology."
-        p2="As an Associate of the Society of Actuaries (ASA) and a Master of Science in Applied Data Science (MS-ADS) from the University of Chicago, Bryce brings a unique blend of analytical rigor, strategic insight, and professionalism to every project. Recognized for his excellence with a 'Best in Show' award for his capstone project, Bryce's expertise spans the gamut of data science methods, from exploratory data analysis to the seamless integration of models into production environments. With Bryce on your team, you're not just gaining a consultant and developer - you're partnering with a professional committed to transforming your business with innovative and tailored solutions."
+        header="Put Experience To Work"
+        p1="Elevate your business now by transforming those long-cherished ideas from concepts into tangible assets. 
+        Working with Bryce, you're not just tapping into a wealth of experience but embarking on a journey towards innovation and growth. 
+        With a track record of developing custom analytical solutions at scale, Bryce's tenure as a Principal Consultant at Oliver Wyman underscores
+         his ability to deliver tailored solutions that meet the demands of even the most discerning clients. Spearheading the creation 
+         of a custom analytics platform supporting over 100 R Shiny applications, Bryce has demonstrated a mastery of both web and data technologies, 
+         blending skills in JavaScript, CSS, R Shiny, Highcharts, React, AWS, and Google Cloud, as well as in R, Python, SQL, and Spark, with a proven ability to quickly learn and implement new technology."
+        p2="As an Associate of the Society of Actuaries (ASA) and a Master of Science in Applied Data Science (MS-ADS) 
+        from the University of Chicago, Bryce brings a unique blend of analytical rigor, strategic insight, 
+        and professionalism to every project. Recognized for his excellence with a 'Best in Show' award for his
+         capstone project, Bryce's expertise spans the gamut of data science methods, from exploratory data analysis to the seamless integration of models into production environments. With Bryce on your team, you're not just gaining a consultant and developer - you're partnering with a professional committed to transforming your business with innovative and tailored solutions."
       />
       <Calendly/>
     </div>
