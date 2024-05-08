@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Media', href: '/media' },
-  { name: 'Resume', href: 'https://storage.googleapis.com/data-downloads-by-bryce/Bryce%20Chamberlain%20-%20Expert%20Analytics%20Support.pdf' },
+  { name: 'Resume', href: '/resume' },
   { name: 'FAQ', href: '/faq' },
 ]
 

@@ -18,13 +18,11 @@ function ProjectCard({ name, about, image, demo }) {
           </h1>
           <p className="mb-8 leading-relaxed lg:pr-28 open-sans-bc">{about}</p>
           <div className="flex justify-center">
-            {demo && (
               <a href={demo} target="_blank" rel="noreferrer">
-                <button className="inline-flex text-white bg-gray-400 border-0 py-2 px-5 focus:outline-none font-medium items-center justify-center gap-1 hover:bg-purple-500  rounded text-lg">
+                <button className="inline-flex text-white bg-gray-400 border-0 py-2 px-5 focus:outline-none font-medium items-center justify-center gap-1 rounded text-lg">
                   Check It Out <BiLinkExternal />
                 </button>
               </a>
-            )}
           </div>
         </div>
       </div>
