@@ -1,0 +1,21 @@
+https://dev.to/johannesvitt/deploy-a-react-app-on-gcp-with-google-cloud-run-il3
+
+# ensure we are on the right project:
+gcloud config set project aware-chicago-413022
+
+# build and submit the image: location/project/repository/image
+gcloud builds submit --tag us-east5-docker.pkg.dev/aware-chicago-413022/docker-containers/homepage
+
+# added 3/7
+
+
+# other commands.
+gcloud components update # might not be necessary, but good to run once a month or so.
+gcloud artifacts locations list # will add permissions?
+gcloud artifacts repositories describe docker-containers --location us-east5 # make sure the respoitory is set up.
+gcloud auth configure-docker us-east5-docker.pkg.dev # run once to authorize the location. 
+
+name invalid: Missing image name. Pushes should be of the form docker push HOST-NAME/PROJECT-ID/REPOSITORY/IMAGE
+Pushing us-east5-docker.pkg.dev/aware-chicago-413022/docker-containers
+The push refers to repository [us-east5-docker.pkg.dev/aware-chicago-413022/docker-containers]
+
