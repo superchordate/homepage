@@ -6,6 +6,14 @@ function Project() {
     <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden mt-16">
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         <ProjectCard
+          name={"R Shiny & Highcharts Demo"}
+          image={"/project/rshiny-demo.jpg"}
+          about={
+            "I worked up this demo to show my skill in dashboard design using R Shiny and Highcharts. If you would like to build a beautiful and user-friendly R Shiny app, let me know!"
+          }
+          demo={"https://rshiny-demo-7bzbiothyq-uc.a.run.app/"}
+        />
+        <ProjectCard
           name={"Aware Chicago"}
           image={"/project/img1.png"}
           about={
