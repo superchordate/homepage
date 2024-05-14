@@ -32,7 +32,7 @@ export default function Services() {
         />
         <Section
             header="Expert Support & Leadership"
-            p1="HHave you ever felt the frustration of watching a problem linger for hours, only to be swiftly solved by an expert in minutes? 
+            p1="Have you ever felt the frustration of watching a problem linger for hours, only to be swiftly solved by an expert in minutes? 
             The stark contrast in efficiency can be jarring, especially when racing against the clock. 
             That's where I come in—I offer just-in-time expertise and mentorship, ensuring you have the support of an expert precisely when you need it. 
             And that you aren't paying for it when you don't. With my guidance, you can confidently make entry-level hires, knowing expert assistance is readily available to tackle any challenges. 
