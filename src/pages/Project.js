@@ -37,7 +37,7 @@ function Project() {
           image={"/project/asec-census-helper.jpg"}
           sub={'R Shiny, Data Engineering, Cloud Engineering'}
           about={
-            "Packages up over 700 fields from the Annual Social and Economic Supplement to the Current Population Survey (CPS-ASEC) data for easier use and provides an interface to quickly get the data you need. (Data Engineering, R Shiny)"
+            "Packages up over 700 fields from the Annual Social and Economic Supplement to the Current Population Survey (CPS-ASEC) data for easier use and provides an interface to quickly get the data you need."
           }
           demo={"https://github.com/superchordate/ASEC-census-helper/"}
         />
@@ -46,7 +46,7 @@ function Project() {
           image={"/project/hcslim.jpg"}
           sub={'R Package Development, Highcharts'}
           about={
-            "Minimal HTML-based functions for creating plots in accordance with the Highcharts API. (R Code for Data Visualization, R Package)"
+            "Minimal HTML-based functions for creating plots in accordance with the Highcharts API."
           }
           demo={"https://github.com/superchordate/hcslim/"}
         />
@@ -55,7 +55,7 @@ function Project() {
           image={"/project/easyr.jpg"}
           sub={'R, R Package Development'}
           about={
-            "Helpful functions that make coding in R easier including, shorthand, type conversion, data wrangling, and workflow. (R Package)"
+            "Helpful functions that make coding in R easier including, shorthand, type conversion, data wrangling, and workflow.
           }
           demo={"https://github.com/superchordate/hcslim/"}
         />
