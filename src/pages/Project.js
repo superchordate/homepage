@@ -55,7 +55,7 @@ function Project() {
           image={"/project/easyr.jpg"}
           sub={'R, R Package Development'}
           about={
-            "Helpful functions that make coding in R easier including, shorthand, type conversion, data wrangling, and workflow.
+            "Helpful functions that make coding in R easier including, shorthand, type conversion, data wrangling, and workflow."
           }
           demo={"https://github.com/superchordate/hcslim/"}
         />
