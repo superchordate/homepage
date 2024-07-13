@@ -25,7 +25,7 @@ function Resume() {
           file="Bryce Chamberlain - Expert Analytics Support.pdf"
           className="flex justify-center shadow-md border-2 border-color-gray-400"
         >
-          <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} />
+          <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
         </Document>
       </div>
       <a

@@ -6,6 +6,8 @@ gcloud config set project aware-chicago-413022
 # build and submit the image: location/project/repository/image
 gcloud builds submit --tag us-east5-docker.pkg.dev/aware-chicago-413022/docker-containers/homepage
 
+# then, go to https://console.cloud.google.com/run/detail/us-central1/homepage/metrics?project=aware-chicago-413022 > edit > deploy
+
 # added 3/7
 
 
