@@ -22,6 +22,14 @@ function Media() {
           demo={"https://github.com/superchordate/data-viz-talk/"}
         />
         <ProjectCard
+          name={"Git Guide"}
+          image={"/media/gitguide-thumb.png"}
+          about={
+            "I wrote a guide for the Casualty Actuarial Society (CAS) to help actuaries learn to use Git."
+          }
+          demo={"https://github.com/casact/meta/blob/master/git-guide/git-guide.md"}
+        />
+        <ProjectCard
           name={"Learners to Leaders"}
           image={"/media/l2l-thumb.png"}
           about={
