@@ -15,6 +15,15 @@ function Portfolio() {
           demo={"https://rshiny-demo-7bzbiothyq-uc.a.run.app/"}
         />
         <ProjectCard
+          name={"Kaggle Competition"}
+          image={"/portfolio/kaggle-belka.jpg"}
+          sub={'Python, Pytorch, Polars, Data Science'}
+          about={
+            "I've shared this repo to show some of my work in the data science realm. It'll give you an idea of what my code is like and what work I've done."
+          }
+          demo={"https://github.com/superchordate/kaggle-2024-belka/"}
+        />
+        <ProjectCard
           name={"This Page"}
           image={"/portfolio/bcllc-homepage.jpg"}
           sub={'React, Tailwind CSS, Cloud Engineering'}
