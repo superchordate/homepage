@@ -1,13 +1,13 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
-function Project() {
+function Portfolio() {
   return (
     <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative overflow-hidden mt-16">
       <div className="z-20 flex items-center justify-center gap-3 m-2 flex-wrap">
         <ProjectCard
           name={"R Shiny & Highcharts Demo"}
-          image={"/project/rshiny-demo.jpg"}
+          image={"/portfolio/rshiny-demo.jpg"}
           sub={'R Shiny, Highcharts, Cloud Engineering'}
           about={
             "I worked up this demo to show my skill in dashboard design using R Shiny and Highcharts. I published it on Google Cloud Platform. If you would like to build a beautiful and user-friendly R Shiny app, let me know!"
@@ -16,7 +16,7 @@ function Project() {
         />
         <ProjectCard
           name={"This Page"}
-          image={"/project/bcllc-homepage.jpg"}
+          image={"/portfolio/bcllc-homepage.jpg"}
           sub={'React, Tailwind CSS, Cloud Engineering'}
           about={
             "I built this website using React and Tailwind CSS! I also published it using Google Cloud Platform."
@@ -25,7 +25,7 @@ function Project() {
         />
         <ProjectCard
           name={"Aware Chicago"}
-          image={"/project/aware-chicago.jpg"}
+          image={"/portfolio/aware-chicago.jpg"}
           sub={'React, GIS (OpenLayers), Cloud Engineering'}
           about={
             "A public safety map that only shows crime that you might actually experience while walking in the city. It uses Cloud Run and Cloud Functions."
@@ -34,7 +34,7 @@ function Project() {
         />
         <ProjectCard
           name={"ASEC Census Helper"}
-          image={"/project/asec-census-helper.jpg"}
+          image={"/portfolio/asec-census-helper.jpg"}
           sub={'R Shiny, Data Engineering, Cloud Engineering'}
           about={
             "Packages up over 700 fields from the Annual Social and Economic Supplement to the Current Population Survey (CPS-ASEC) data for easier use and provides an interface to quickly get the data you need."
@@ -43,7 +43,7 @@ function Project() {
         />
         <ProjectCard
           name={"hcslim"}
-          image={"/project/hcslim.jpg"}
+          image={"/portfolio/hcslim.jpg"}
           sub={'R Package Development, Highcharts'}
           about={
             "Minimal HTML-based functions for creating plots in accordance with the Highcharts API."
@@ -52,7 +52,7 @@ function Project() {
         />
         <ProjectCard
           name={"easyr"}
-          image={"/project/easyr.jpg"}
+          image={"/portfolio/easyr.jpg"}
           sub={'R, R Package Development'}
           about={
             "Helpful functions that make coding in R easier including, shorthand, type conversion, data wrangling, and workflow."
@@ -64,4 +64,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Portfolio;
