@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Media from "./pages/Media";
 import Resume from "./pages/Resume";
@@ -16,7 +15,6 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/media" element={<Media />} />
         <Route path="/resume" element={<Resume />} />

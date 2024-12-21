@@ -25,7 +25,7 @@ function Media() {
           name={"Git Guide"}
           image={"/media/gitguide-thumb.png"}
           about={
-            "I wrote a guide for the Casualty Actuarial Society (CAS) to help actuaries learn to use Git."
+            "I wrote this guide for the Casualty Actuarial Society (CAS) to help actuaries learn to use Git."
           }
           demo={"https://github.com/casact/meta/blob/master/git-guide/git-guide.md"}
         />

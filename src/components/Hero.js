@@ -18,12 +18,9 @@ export default function Hero() {
             </div>
           </div> */}
           <div className="text-center">
-            <h1 className="text-4xl tracking-tight text-gray-100 sm:text-6xl poppins-regular">
-              Make your analytical dreams a reality <span className="poppins-extrabold text-white">now.</span> 
+            <h1 className="text-4xl tracking-tight text-gray-100 sm:text-6xl poppins-regular relative bottom-6">
+              Flexible, end to end data support for <strong>startups</strong> and <strong>small teams</strong>.
             </h1>
-            <p className="mt-6 text-3xl leading-8 text-white poppins-semibold">
-              Your customers will thank you.
-            </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {/* <a
                 href="#"
