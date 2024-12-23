@@ -8,7 +8,7 @@ function ProjectCard({ name, sub, about, image, demo }) {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 border-2">
           <a href={demo} target="_blank" rel="noreferrer"><img
             className="object-cover object-center rounded"
-            alt="project"
+            alt="Sample image for project: {name}."
             src={image}
           /></a>
         </div>
