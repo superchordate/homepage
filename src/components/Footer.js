@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUpwork } from '@fortawesome/free-brands-svg-icons'
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,6 +19,14 @@ function Footer() {
           </a>
           &nbsp;for sharing this web template.
         </p>
+        <a
+          href="https://www.upwork.com/freelancers/brycechamberlain"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white"
+        >
+          <FontAwesomeIcon icon={faUpwork} />
+        </a>
         <a
           href="https://github.com/superchordate/"
           target="_blank"
