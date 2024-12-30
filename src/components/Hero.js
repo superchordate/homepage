@@ -19,7 +19,7 @@ export default function Hero() {
           </div> */}
           <div className="text-center">
             <h1 className="text-4xl tracking-tight text-gray-100 sm:text-6xl poppins-regular relative bottom-6">
-              Flexible, end to end data support for <strong>startups</strong> and <strong>small teams</strong>.
+              Flexible end-to-end analytics support for <strong>startups</strong> and <strong>small teams</strong>.
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               {/* <a
